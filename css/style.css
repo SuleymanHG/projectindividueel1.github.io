@@ -1,11 +1,9 @@
-body, html {
+body {
     margin:0;
     padding: 0;
     width: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #F1FFF5;
-    margin-left: 20px;
-    margin-right: 20px;
     color: #019E4C;
 }
 
@@ -14,8 +12,6 @@ header {
     color: #ffffff;
     padding: 10px;
     position: relative;
-    margin-left: -25px;
-    margin-right: -25px;
 }
 
 header button {
@@ -25,16 +21,12 @@ header button {
     font-size: 24px;
     cursor: pointer;
     display: none;
-    margin-left: -25px;
-    margin-right: -25px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: none;
-    margin-left: -25px;
-    margin-right: -25px;
 }
 
 nav a {
@@ -43,8 +35,6 @@ nav a {
     font-size: 16px;
     display: block;
     padding: 10px;
-    margin-left: -25px;
-    margin-right: -25px;
 }
 
 header div img{
@@ -55,11 +45,13 @@ h1{
     font-size: 3em;
     margin: 0;
     padding-bottom: 20px;
+    margin-left:15px;
 }
 
 h3{
     margin: 0;
     color: #5F8067;
+    margin-left: 15px;
 }
 
 h2{
@@ -69,11 +61,15 @@ h2{
 
 p{
     color: #5F8067;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 a{
     color: #5F8067;
-    text-align: center;
+    display: block; 
+    width: fit-content; 
+    margin: 0 auto;
 }
 
 img{
@@ -86,17 +82,6 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
