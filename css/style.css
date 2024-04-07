@@ -1,0 +1,121 @@
+body, html {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F1FFF5;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #019E4C;
+}
+
+header {
+    background-color: #F1FFF5;
+    color: #ffffff;
+    padding: 10px;
+    position: relative;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+header button {
+    background: none;
+    border: none;
+    color: #019E4C;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: none;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+nav a {
+    color: #5F8067;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+header div img{
+    max-width: 30%;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+h3{
+    margin: 0;
+    color: #5F8067;
+}
+
+h2{
+    font-size:2.5em;
+    text-align: center;
+}
+
+p{
+    color: #5F8067;
+}
+
+a{
+    color: #5F8067;
+    text-align: center;
+}
+
+img{
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-style: solid;
+    border-color: #DEB040;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    header button {
+        display: block;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav ul li {
+        text-align: center;
+    }
+
+    .nav ul.display {
+        display: flex;
+    }
+}
